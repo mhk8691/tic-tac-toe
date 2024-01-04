@@ -32,7 +32,7 @@ namespace dooz
 
                 File.WriteAllText(path2, round + "");
                 two_Player.Show();
-                this.Close();
+                this.Hide();
 
 
 
@@ -42,7 +42,7 @@ namespace dooz
                 File.WriteAllText(path2, round + "");
 
                 two_Player.Show();
-                this.Close();
+                this.Hide();
 
 
             }

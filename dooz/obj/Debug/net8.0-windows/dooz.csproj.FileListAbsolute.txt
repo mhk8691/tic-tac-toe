@@ -46,3 +46,28 @@ D:\Programmig project\dooz\dooz\obj\Debug\net8.0-windows\refint\dooz.dll
 D:\Programmig project\dooz\dooz\obj\Debug\net8.0-windows\dooz.pdb
 D:\Programmig project\dooz\dooz\obj\Debug\net8.0-windows\dooz.genruntimeconfig.cache
 D:\Programmig project\dooz\dooz\obj\Debug\net8.0-windows\ref\dooz.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\dooz.exe
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\dooz.deps.json
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\dooz.runtimeconfig.json
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\dooz.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\dooz.pdb
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.csproj.AssemblyReference.cache
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.name.resources
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.Properties.Resources.resources
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.two_player.resources
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.csproj.GenerateResource.cache
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.AssemblyInfoInputs.cache
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.AssemblyInfo.cs
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.csproj.CoreCompileInputs.cache
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.sourcelink.json
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.csproj.CopyComplete
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\refint\dooz.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.pdb
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.genruntimeconfig.cache
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\ref\dooz.dll
+C:\Users\mhk\Desktop\dooz\tic-tac-toe\dooz\obj\Debug\net8.0-windows\dooz.Home.resources

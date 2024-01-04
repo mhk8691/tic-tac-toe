@@ -443,7 +443,7 @@ namespace dooz
         {
             name name = new name();
             name.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void timer1_Tick(object sender, EventArgs e)

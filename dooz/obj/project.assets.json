@@ -150,11 +150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mhk\\Desktop\\dooz\\dooz\\dooz.csproj",
+      "projectUniqueName": "C:\\Users\\mhk\\Desktop\\dooz\\tic-tac-toe\\dooz\\dooz.csproj",
       "projectName": "dooz",
-      "projectPath": "C:\\Users\\mhk\\Desktop\\dooz\\dooz\\dooz.csproj",
+      "projectPath": "C:\\Users\\mhk\\Desktop\\dooz\\tic-tac-toe\\dooz\\dooz.csproj",
       "packagesPath": "C:\\Users\\mhk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mhk\\Desktop\\dooz\\dooz\\obj\\",
+      "outputPath": "C:\\Users\\mhk\\Desktop\\dooz\\tic-tac-toe\\dooz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhk\\AppData\\Roaming\\NuGet\\NuGet.Config",

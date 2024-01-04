@@ -34,6 +34,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(name));
             playerOne = new Guna.UI2.WinForms.Guna2TextBox();
             playerTwo = new Guna.UI2.WinForms.Guna2TextBox();
             play = new Guna.UI2.WinForms.Guna2Button();
@@ -158,6 +159,7 @@
             Controls.Add(play);
             Controls.Add(playerTwo);
             Controls.Add(playerOne);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "name";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "name";

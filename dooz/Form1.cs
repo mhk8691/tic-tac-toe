@@ -1,8 +1,8 @@
 namespace dooz
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
@@ -21,6 +21,9 @@ namespace dooz
             this.Close();
         }
 
-       
+        private void play_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Coming Soon...");
+        }
     }
 }

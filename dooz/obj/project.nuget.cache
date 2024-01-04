@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pi1R4TkP6xH+IPu0iGfZQkfJ5aKlXezeyOJmX3qvzbJ9KtASAyrVTO7nP0WsVK0PVl91Xknk05SYdgsmXEKEug==",
+  "dgSpecHash": "IJ/lTmVt29/1HB3Ul5mFdk5BCS0vg9MYlPNL9nswvbbrgaK7zchL0GmmEb/OlHZ1Ej+put9ek+B0xyFTyOlu9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mhk\\Desktop\\dooz\\dooz\\dooz.csproj",
+  "projectFilePath": "C:\\Users\\mhk\\Desktop\\dooz\\tic-tac-toe\\dooz\\dooz.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhk\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\mhk\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
