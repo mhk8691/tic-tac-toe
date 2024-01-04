@@ -40,6 +40,8 @@
             play = new Guna.UI2.WinForms.Guna2Button();
             trackbar = new Guna.UI2.WinForms.Guna2TrackBar();
             count = new Label();
+            back = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)back).BeginInit();
             SuspendLayout();
             // 
             // playerOne
@@ -148,12 +150,25 @@
             count.TabIndex = 7;
             count.Text = "1";
             // 
+            // back
+            // 
+            back.Cursor = Cursors.Hand;
+            back.Image = Properties.Resources.undo;
+            back.Location = new Point(12, 12);
+            back.Name = "back";
+            back.Size = new Size(40, 40);
+            back.SizeMode = PictureBoxSizeMode.StretchImage;
+            back.TabIndex = 13;
+            back.TabStop = false;
+            back.Click += back_Click;
+            // 
             // name
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(25, 26, 28);
             ClientSize = new Size(356, 449);
+            Controls.Add(back);
             Controls.Add(count);
             Controls.Add(trackbar);
             Controls.Add(play);
@@ -165,6 +180,7 @@
             Text = "name";
             FormClosing += name_FormClosing;
             Shown += name_Shown;
+            ((System.ComponentModel.ISupportInitialize)back).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -176,5 +192,6 @@
         private Guna.UI2.WinForms.Guna2Button play;
         private Guna.UI2.WinForms.Guna2TrackBar trackbar;
         private Label count;
+        private PictureBox back;
     }
 }
