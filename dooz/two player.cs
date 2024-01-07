@@ -10,7 +10,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Media;
 namespace dooz
 {
     public partial class two_player : Form
@@ -36,6 +36,7 @@ namespace dooz
         int player2 = 0;
         string player_is_won = "";
         int round_final;
+        string fileName = "music.WAV";
 
 
         public void click(Control name)
@@ -380,6 +381,8 @@ namespace dooz
                 MessageBox.Show(player_one.Text + " won the game!");
                 clear_all();
             }
+            
+            
         }
 
         private void one_Click(object sender, EventArgs e)
@@ -444,6 +447,9 @@ namespace dooz
             name name = new name();
             name.Show();
             this.Hide();
+            string path = Path.Combine(Application.StartupPath, fileName);
+            SoundPlayer soundPlayer = new SoundPlayer(path);
+            soundPlayer.Stop();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -459,6 +465,13 @@ namespace dooz
             turn2.Text = "X";
             turn.ForeColor = Color.Red;
             turn2.ForeColor = Color.Red;
+            string path = Path.Combine(Application.StartupPath, fileName);
+            SoundPlayer soundPlayer = new SoundPlayer(path);
+            
+            soundPlayer.Play();
+            soundPlayer.PlayLooping();
+            
+            
         }
 
         private void two_player_FormClosing(object sender, FormClosingEventArgs e)
@@ -473,6 +486,20 @@ namespace dooz
                 else
                     e.Cancel = true; // to don't close form is user change his mind
             }
+        }
+
+        private void two_player_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Right)
+            {
+                MessageBox.Show("hello");
+
+            }
+        }
+
+        private void two_player_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

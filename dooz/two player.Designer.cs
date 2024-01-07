@@ -402,7 +402,9 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "two_player";
             FormClosing += two_player_FormClosing;
+            Load += two_player_Load;
             Shown += two_player_Shown;
+            KeyDown += two_player_KeyDown;
             ((System.ComponentModel.ISupportInitialize)back).EndInit();
             ResumeLayout(false);
             PerformLayout();

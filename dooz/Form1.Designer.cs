@@ -142,6 +142,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
             FormClosing += Home_FormClosing;
+            KeyDown += Home_KeyDown;
             ResumeLayout(false);
         }
 

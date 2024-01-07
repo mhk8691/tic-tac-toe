@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dooz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14aff296a4a9f5d77fc5093138edbced1f3118ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+606b54b7e814a34dd2ef1090d7e2d27500d9b87e")]
 [assembly: System.Reflection.AssemblyProductAttribute("dooz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dooz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,5 +39,10 @@ namespace dooz
                     e.Cancel = true; // to don't close form is user change his mind
             }
         }
+
+        private void Home_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
     }
 }
