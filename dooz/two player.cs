@@ -37,6 +37,7 @@ namespace dooz
         string player_is_won = "";
         int round_final;
         string fileName = "music.WAV";
+        int volume_count = 0;
 
 
         public void click(Control name)
@@ -381,8 +382,8 @@ namespace dooz
                 MessageBox.Show(player_one.Text + " won the game!");
                 clear_all();
             }
-            
-            
+
+
         }
 
         private void one_Click(object sender, EventArgs e)
@@ -467,11 +468,11 @@ namespace dooz
             turn2.ForeColor = Color.Red;
             string path = Path.Combine(Application.StartupPath, fileName);
             SoundPlayer soundPlayer = new SoundPlayer(path);
-            
+
             soundPlayer.Play();
             soundPlayer.PlayLooping();
-            
-            
+
+
         }
 
         private void two_player_FormClosing(object sender, FormClosingEventArgs e)
@@ -499,7 +500,28 @@ namespace dooz
 
         private void two_player_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void volume_Click(object sender, EventArgs e)
+        {
+            string path = Path.Combine(Application.StartupPath, fileName);
+            SoundPlayer soundPlayer = new SoundPlayer(path);
+
+            if (volume_count %2 == 0)
+            {
+                volume.Image = Properties.Resources.volume_on;
+                volume_count++;
+                soundPlayer.Stop();
+
+            }
+            else if (volume_count %2 == 1)
+            {
+                volume.Image = Properties.Resources.volume_off1;
+                volume_count++;
+                soundPlayer.Play();
+                soundPlayer.PlayLooping();
+            }
         }
     }
 }

@@ -67,7 +67,9 @@
             timer1 = new System.Windows.Forms.Timer(components);
             turn = new Label();
             turn2 = new Label();
+            volume = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)back).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)volume).BeginInit();
             SuspendLayout();
             // 
             // guna2HtmlLabel2
@@ -371,12 +373,26 @@
             turn2.Size = new Size(0, 22);
             turn2.TabIndex = 10;
             // 
+            // volume
+            // 
+            volume.BackColor = Color.White;
+            volume.Image = Properties.Resources.volume_off1;
+            volume.Location = new Point(513, 12);
+            volume.Name = "volume";
+            volume.Padding = new Padding(5);
+            volume.Size = new Size(50, 50);
+            volume.SizeMode = PictureBoxSizeMode.StretchImage;
+            volume.TabIndex = 13;
+            volume.TabStop = false;
+            volume.Click += volume_Click;
+            // 
             // two_player
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(25, 26, 28);
             ClientSize = new Size(575, 520);
+            Controls.Add(volume);
             Controls.Add(back);
             Controls.Add(player_two);
             Controls.Add(turn2);
@@ -406,6 +422,7 @@
             Shown += two_player_Shown;
             KeyDown += two_player_KeyDown;
             ((System.ComponentModel.ISupportInitialize)back).EndInit();
+            ((System.ComponentModel.ISupportInitialize)volume).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -433,5 +450,6 @@
         private Label nobat;
         private Label turn;
         private Label turn2;
+        private PictureBox volume;
     }
 }
